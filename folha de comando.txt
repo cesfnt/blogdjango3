@@ -1,0 +1,46 @@
+#Windows
+Ativar virtual env:
+cd projeto;
+cd venv;
+cd Script;
+activate;
+
+
+#linux & Mac
+. venv/bin/activate;
+
+#Criar projeto Django
+django-admin startproject blog;
+
+Rodar projeto Django
+python manage.py runserver;
+
+Parar o servidor
+CTRL + C;
+
+Criar tabelas no banco de dados
+python manage.py migrate
+
+Criar super usuario
+python manage.py createsuperuser
+
+
+Criar app
+python manage.py startapp website
+
+Criat git repositorio
+git init
+
+Mostrar historico do repositio
+git status
+
+Fazer um commit
+git add .
+git commit -m "Fist commit"
+git push origin master
+git push -u origin master
+
+
+Add remote
+git remote add origin endereco
+git remote add origin https://github.com/cesfnt/cursodjango3
