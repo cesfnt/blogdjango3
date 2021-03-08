@@ -44,3 +44,6 @@ git push -u origin master
 Add remote
 git remote add origin endereco
 git remote add origin https://github.com/cesfnt/cursodjango3
+
+Listar branch
+git branch -v
