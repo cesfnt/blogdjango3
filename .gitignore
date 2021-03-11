@@ -1,3 +1,5 @@
 venv
 .idea
 folha de comando.txt
+media
+db.sqlite3
